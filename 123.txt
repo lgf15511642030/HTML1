@@ -1,0 +1,124 @@
+一、HTML5文档的基本结构如下：
+<!DOCTYPE html>
+<!--HTML5文档类型声明-->
+<html>告诉HTML开头
+  <head>html文件头
+<title>网页标题</title>
+<base href="http://localhost/images/" />
+<meta charset="utf-8">字符
+    <style>
+p {color: red}
+</style>
+<link rel="stylesheet" href="my1.css" />
+<script src="test.js"></script>
+ </head>
+  <body>正文
+    主体内容
+  </body>
+</html>HTML结尾
+说明：
+1、<!DOCTYPE html>为HTML5的文档类型声明
+2、<html>为HTML5的根标签
+3、<head>为HTML5的首部标签
+4、<title>为HTML5的网页标题标签<标题>
+5、基础地址标签<base>
+6、元数据标签<meta> ，<meta>标签可用于定义网页的字符集、关键词、描述、作者等信息。
+7、样式标签<style>
+8、链接标签<link>
+9、脚本标签<script >
+10、主体标签<body>
+11、文档注释标签<!--...-->
+二、HTML5常用标签
+（1）、基础标签
+1. 段落标签<p>
+2. 标题标签<h1>-<h6>单独成行
+3. 水平线标签<hr>
+4. 换行标签<br>
+（2）、文本格式标签
+1. 斜体字标签<i>
+2. 粗体字标签<b>和<strong>
+3. 上标标签<sup>和下标标签<sub>
+4. 修订标签<del>和<ins>
+5. 预格式化标签<pre>
+6.<wbr></wbr>告诉浏览器这个单词可以分开
+7.<hgroup></hgroup>连续的，但是是两个标记
+8.<tt></tt>等宽的西方文字字体
+9.<small></small>字体变小
+10.<del></del>表示我要在文中表示删除
+11.<ins></ins>表示我要在文中表示添加
+12.<s></s>表示过时，并没有被删除
+13.<sup></sup>上标  <sub></sub>下标
+14.<mark></mark>高亮
+15.<em>em强调</em>
+16.<strong>strong着重</strong>
+17.<dfn>definition定义</dnf>
+18.<code>code代码</code>少量函数
+19.<samp>samp列子代码</samp>
+20.<kbd>kbd用户输入</kbd>
+21.<var>variable变量</var>
+22.<cite>cite引用</cite>
+
+特殊格式
+1.<address></address>地址
+2.<blockquote></blockquote>文字缩进
+（3）、列表标签
+1. 有序列表标签<ol>
+<ol>
+<li>第一项
+<li>第二项
+<li>第三项
+.......
+</ol>
+2. 无序列表标签<ul>
+<ul>
+<li>第一项
+<li>第二项
+<li>第三项
+.......
+</ul>
+3. 定义列表标签<dl>
+（4）、图像标签<img>
+<img src="http://localhost/images/starrynight.jpg" />
+（5）、超链接标签<a>
+1. 外部链接
+<a href=”www.baidu.com 
+
+”>百度</a>
+2. 内部链接
+语法格式：<a href="#指定区域名">链接文本或图像</a>
+<a name="区域名">目标内容</a>
+（6）、表格标签
+1. 表格标签<table>
+2. 表格行标签<tr>
+3. 单元格标签<td>
+4. 表头标签<th>
+5. 表格标题标签<caption>
+（7）、容器标签
+1. <div>标签
+2. <span>标签
+三、HTML5新增文档结构标签
+1. 页眉标签<header>
+2. 导航标签<nav>
+3. 节标签<section>
+4. 文章标签<article>
+5. 侧栏标签<aside>
+6. 页脚标签<footer>
+
+
+
+colspan：行合并单元格
+rowspan:列合并单元格
+表格标签：<table>
+表格行标签：<tr>
+单元格标签<td>
+表头标签：<th>
+表格标题标签：<caption>
+ text-align:center：水平居中
+ line-height:：行高
+ border：边框
+solid：实线
+ padding：填充，内边距 
+margin：边界
+border-bottom：底边
+list-style：列表样式
+auto：居中
